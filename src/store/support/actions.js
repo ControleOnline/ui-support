@@ -1,5 +1,5 @@
 import { api } from "@controleonline/../../src/boot/api";
-import * as types from './mutation_types';
+import * as types from "@controleonline/ui-default/src/store/default/mutation_types";
 
 export const getNews = ({ commit }, params = {}) => {
   commit(types.SET_ISLOADING);
