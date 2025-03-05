@@ -8,7 +8,6 @@ export default {
   state: {
  item:{},
 items:[],
-filters:{},
     isLoading: false,
   },
   actions: { ...actions, ...customActions },
