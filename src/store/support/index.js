@@ -1,4 +1,4 @@
-import * as customActions from "./actions";
+﻿import * as customActions from "./actions";
 import * as actions from "@controleonline/ui-default/src/store/default/actions";
 import * as getters from "@controleonline/ui-default/src/store/default/getters";
 import mutations from "@controleonline/ui-default/src/store/default/mutations";
@@ -9,6 +9,7 @@ export default {
  item:{},
 items:[],
     isLoading: false,
+    summary: {},
   },
   actions: { ...actions, ...customActions },
   getters,
