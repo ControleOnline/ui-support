@@ -23,7 +23,7 @@ export default function ServiceHomePage({navigation}) {
       ),
     [themeColors, currentCompany?.id],
   );
-  const primaryColor = brandColors.primary || '#2563EB';
+  const primaryColor = brandColors.primary;
 
   if (!currentCompany || !themeColors) {
     return (
@@ -34,7 +34,7 @@ export default function ServiceHomePage({navigation}) {
   }
 
   return (
-    <View style={[styles.container, {backgroundColor: brandColors.background || '#F8FAFC'}]}>
+    <View style={[styles.container, {backgroundColor: brandColors.background}]}>
       <ScrollView
         contentContainerStyle={styles.scroll}
         showsVerticalScrollIndicator={false}
