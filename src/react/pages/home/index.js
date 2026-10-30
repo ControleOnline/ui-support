@@ -3,8 +3,8 @@ import React, {useMemo} from 'react';
 import {ActivityIndicator, ScrollView, View} from 'react-native';
 import {Text} from 'react-native-animatable';
 import {useStore} from '@store';
-import {resolveThemePalette} from '@controleonline/../../src/styles/branding';
-import {colors} from '@controleonline/../../src/styles/colors';
+import {resolveThemePalette} from '@controleonline/ui-layout/src/styles/branding';
+import {colors} from '@controleonline/ui-layout/src/styles/colors';
 import AppMenuGrid from '@controleonline/ui-layout/src/react/components/AppMenuGrid';
 import styles from './index.styles';
 
